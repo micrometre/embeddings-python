@@ -1,0 +1,5 @@
+.venv/
+*.json
+pycache/
+*.log
+*.sqlite3
