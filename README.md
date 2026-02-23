@@ -22,6 +22,10 @@ pip install -r requirements.txt
 
 3. Make sure [Ollama](https://ollama.ai/) is running with the `nomic-embed-text` model available.
 
+
+
+
+
 ## Usage
 
 ### Log Search
@@ -30,7 +34,7 @@ Index and search system logs with semantic queries.
 
 #### First time, index your logs:
 ```bash
-python logsearch/logsearch.py --index /var/log/syslog /var/log/auth.log
+python logsearch/logsearch.py --index /var/log/syslog /var/log/syslog
 ```
 
 #### Then search:
